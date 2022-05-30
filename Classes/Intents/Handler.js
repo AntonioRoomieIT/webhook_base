@@ -12,7 +12,7 @@ async function handlerOfIntents(event, context, callback) {
     case "welcome":
       fullFillmentState = "Fulfilled";
       msgQuery = "Hola, soy climabot, te ayudare a saber el clima de algunas ciudades del mundo.";
-      msgQueryTwo = "Pero primero, por favor dime ¿Como te llamas?";
+      msgQueryTwo = "Pero primero,dime ¿Como te llamas?";
       msgContent = [
         {
           contentType: "PlainText",
