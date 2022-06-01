@@ -21,6 +21,8 @@ function handlerOfsessionAttributes(event, intentName = "", values = {}) {
             sessionAttributes[key] = value;
         })
     }
+    console.log("sessionAttributes:");
+    console.log(sessionAttributes);
     return sessionAttributes;
 
 }
